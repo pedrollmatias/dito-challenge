@@ -47,7 +47,7 @@ getJson(options, (err, res) =>{
 	* @param {array} Array em que a busca ocorrerá.
 	* @param {field} Campo-chave que será parametro para a busca.
 	* @param {value} Valor fornecido para a cunsulta do "field" (campo-chave)
-	* @return {element} Retorna o elemento encontrado. Caso nao encontra ou o array de busca seja vazio, retorna null  
+	* @return {element} Retorna o elemento encontrado. Caso nao encontre ou o array de busca seja vazio, retorna null  
 	*/ 
 	function findElement(array, field, value) {
 		if(typeof array !== 'undefined' && array.length > 0){
