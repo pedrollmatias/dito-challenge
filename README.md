@@ -1,4 +1,4 @@
-## Desafio Dito - Estágio Back-end
+## Desafio Dito
 Autor: Pedro Matias
 
 ### **Linguagem utilizada** 
