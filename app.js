@@ -38,7 +38,7 @@ getJson(options, (err, res) =>{
 		return console.error("Erro ao tentar obter o JSON:\n", err);
 	}
 
-	// Respostar caso não haja erro:
+	// Resposta caso não haja erro:
 	let json = res;
 	// JSON.stringfy deixa a resposta mais organizada
 	console.log('Request:\n\n', JSON.stringify(json, null, 4), '\n\n');
@@ -51,9 +51,9 @@ getJson(options, (err, res) =>{
 	*/ 
 	function findElement(array, field, value) {
 		if(typeof array !== 'undefined' && array.length > 0){
-		  return array.find((element) => {
-		  	return element[field] === value 
-		  });
+		  	return array.find((element) => {
+		  		return element[field] === value 
+		 	});
 		}
 		return null;
 	}
@@ -88,7 +88,7 @@ getJson(options, (err, res) =>{
 					array[index].store_name = findElement(element.custom_data, 'key', 'store_name').value;
 				}
 			}
-		// Se o evento do elemento for do tipo comprou
+		// Se o evento do elemento for do tipo comprou-produto
 		}else if(element.event == 'comprou-produto'){
 			// Se o elemento corrente (do tipo "comprou-produto") ainda não existir no array resposta, adiciona-o no array, deixando a lista de produtos vazia
 			if(!transactionInArray){
