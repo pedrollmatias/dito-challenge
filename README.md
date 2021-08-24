@@ -2,7 +2,7 @@
 
 A Dito coleta bilhões de eventos de comportamento on/offline e um dos desafios diários é gerar valor para os usuários através de informações consistentes e acessíveis.
 
-Esse desafio é composto por um problema de ​ **Manipulação de Dados**.
+Esse desafio é composto por um problema de **Manipulação de Dados**.
 
 O objetivo é criar uma timeline de compras a partir dos eventos disponíveis neste endpoint: https://storage.googleapis.com/dito-questions/events.json​.
 
@@ -48,7 +48,9 @@ A resposta esperada dessa função é a seguinte:
   ],
 }
 ```
+
 ### Critérios de avaliação
+
 - Simplicidade da solução;
 - Complexidade algorítmica;
 - Boas práticas de desenvolvimento de software;
