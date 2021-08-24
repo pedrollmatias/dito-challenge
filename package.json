@@ -1,0 +1,29 @@
+{
+  "name": "desafio-dito",
+  "version": "1.0.0",
+  "description": "Autor: Pedro Matias",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx tap test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrollmatias/desafio-dito.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrollmatias/desafio-dito/issues"
+  },
+  "homepage": "https://github.com/pedrollmatias/desafio-dito#readme",
+  "devDependencies": {
+    "tap": "15.0.9"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
