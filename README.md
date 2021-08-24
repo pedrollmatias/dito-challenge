@@ -58,6 +58,6 @@ A resposta esperada dessa função é a seguinte:
 
 A solução foi desenvolvida em Node.js/Javascript. Foram feitas duas implementações, uma com foco em manutenção, priorizando facilidade de entendimento e outra mais complexa e performática. A requisição http foi feita utilizando o [fetch](https://www.npmjs.com/package/node-fetch) e os algoritmos foram testados com o [tap](https://www.npmjs.com/package/tap).
 
-Para execução das funções, basta executar o script `npm run test`.
+Para execução das funções, basta executar o `npm install` e posteriormente o script `npm run test`.
 
 Autor: Pedro Matias
