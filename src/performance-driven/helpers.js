@@ -24,7 +24,7 @@ function obterDadosEventoComprou(evento, transactionId, eventoCustomDataJson) {
 function gerarNovoEventoComprou(dadosEvento) {
   return {
     ...dadosEvento,
-    produtos: [],
+    products: [],
   };
 }
 

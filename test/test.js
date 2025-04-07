@@ -1,12 +1,9 @@
 "use strict";
 
-import fetch from "node-fetch";
 import { test } from "tap";
+import input from "./input.js";
 
-import {
-  getEasyTimeline,
-  getPerformaticTimeline,
-} from "../src/index.js";
+import { getEasyTimeline, getPerformaticTimeline } from "../src/index.js";
 
 const output = {
   timeline: [
@@ -42,8 +39,9 @@ const output = {
 };
 
 test("Deve retornar eventos saída esperada", async (t) => {
-  const response = await fetch('https://storage.googleapis.com/dito-questions/events.json');
-  const input = await response.json();
+  // API requer credenciais de acesso. Alternativamente, utiliza o arquivo local para input
+  // const response = await fetch('https://storage.googleapis.com/dito-questions/events.json');
+  // const input = await response.json();
 
   t.same(JSON.stringify(output), JSON.stringify(getEasyTimeline(input)));
   t.same(JSON.stringify(output), JSON.stringify(getPerformaticTimeline(input)));

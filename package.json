@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "npx tap test/test.js"
+    "test": "tap test/test.js"
   },
   "repository": {
     "type": "git",
